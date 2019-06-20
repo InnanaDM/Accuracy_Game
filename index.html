@@ -14,15 +14,65 @@
 
     <div class="container">
         <div class="row">
-    <h1>ACCURACY TEST</h1>
+            <div class="col s12">
+                <h1>ACCURACY TEST</h1>
 
+             <pre><p class="instructions">              Test your accuracy.<br> <br>                          Click the dot as many times as you can in 30 seconds.<br> <br>                                                                If you reach 40 points, you win.</p></pre>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col s12">
 
+                <form name="clickPanel">
 
+                    <button name="startStop" onclick="play()">Start  |  Stop</button>
+                
+                    
+                    <input type="text" name="state" size="20" value="Push Start to Play" onFocus="this.blur()">
+                </div>
+                    <div class="timeScoreBox">
+                    <table class="gridBox">
+                    <tr>
+                        <!-- hold time/score box -->
+                        <td align="right"> Time: </td>
+                        <td>
+                            <input type="text" name="timeLeft" size="4" onFocus="this.blur()">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"> Score: </td>  
+                        <td>
+                            <input type="text" name="score" size="4" onFocus="this.blur()"> 
+                        </td>
+                        </tr>
+                    </table>
+                </div>
+                </form>
+           
+                <!-- actual test board -->
+                <form name="dmz">
 
-</div>
-<!-- end of container -->
-</div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </form>
+            
+        </div>
+
+        <!-- end of container -->
+    </div>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="../app.js"></script>
