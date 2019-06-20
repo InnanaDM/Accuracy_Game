@@ -71,7 +71,12 @@ button {
 .gridBox {
    background-color: yellow;
    margin-top: 40px;
+   margin-left: 40px;
 }
 
+.timeScoreBox {
+    display: inline-block;
+    text-align: center;
+}
 
 
