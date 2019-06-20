@@ -87,7 +87,7 @@ button {
     background-color: yellow;
     margin-top: 40px;
     margin-left: 40px;
-    width: 288px;
+    width: 310px;
 }
 
 input.sRadioBut {
@@ -100,4 +100,6 @@ input.lRadioBut {
     height: 1.5em;
 
 }
+
+
 
