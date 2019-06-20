@@ -79,6 +79,10 @@ button {
     text-align: center;
 }
 
+.testForm {
+    width: 400px;
+}
+
 .gridTestBox {
     background-color: yellow;
     margin-top: 40px;
@@ -86,4 +90,14 @@ button {
     width: 400px;
 }
 
+input.sRadioBut {
+    width: 0.5em;
+    height: 0.5em;
+}
+
+input.lRadioBut {
+    width: 1.5em;
+    height: 1.5em;
+
+}
 
