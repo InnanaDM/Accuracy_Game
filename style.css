@@ -86,8 +86,9 @@ button {
 .gridTestBox {
     background-color: yellow;
     margin-top: 40px;
-    margin-left: 40px;
-    width: 310px;
+    width: 330px;
+    display: inline-block;
+    text-align: center;
 }
 
 input.sRadioBut {
@@ -97,8 +98,11 @@ input.sRadioBut {
 
 input.lRadioBut {
     width: 1.5em;
-    height: 1.5em;
+    height: 2em;
+}
 
+.center {
+    text-align: center;
 }
 
 
