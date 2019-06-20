@@ -68,7 +68,7 @@ button {
 
 
 /* holds grid test */
-.gridBox {
+.timeScoreT {
    background-color: yellow;
    margin-top: 40px;
    margin-left: 40px;
@@ -77,6 +77,13 @@ button {
 .timeScoreBox {
     display: inline-block;
     text-align: center;
+}
+
+.gridTestBox {
+    background-color: yellow;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 400px;
 }
 
 
