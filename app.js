@@ -20,6 +20,7 @@ function clrHoles() {
 function stopTimer() {
     if (playing) {
         clearTimeout(timerID);
+        console.log("stopTimer connect")
     }
 }
 
@@ -39,6 +40,17 @@ function showTime(remTime) {
             timerID = setTimeout("showTime(temp)", 1000);
         }
     }
+    console.log("showTime connect")
 }
 
+function stopGame() {
+    stopTimer();
+    playing = false;
+    document.cPanel.timeLeft.value = 0;
+    clrHoles();
+    display("Game Over");
+    alert("Game Over. \nYour score is: " + totalHits);
+
+    console.log("stopGame connect")
+}
 
