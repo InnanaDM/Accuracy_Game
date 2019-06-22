@@ -16,4 +16,29 @@ function clrHoles() {
     document.dmz.elements[k].checked = false;
 }
 
+// stop funct
+function stopTimer() {
+    if (playing) {
+        clearTimeout(timerID);
+    }
+}
+
+
+// show when time stops
+function showTime(remTime) {
+    document.cPanel.timeLeft.value=remTime;
+
+    if (playing) {
+        if (remTime === 0) {
+            stopGame();
+            return;
+        }
+
+        else {
+            temp = remTime - 1;
+            timerID = setTimeout("showTime(temp)", 1000);
+        }
+    }
+}
+
 
