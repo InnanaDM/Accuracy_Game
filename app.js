@@ -54,3 +54,21 @@ function stopGame() {
     console.log("stopGame connect")
 }
 
+
+function play() {
+    stopTimer();
+    if(playing) {
+        stopGame();
+        return;
+    }
+
+    playing = true;
+    clrHoles();
+    totalHits = 0;
+    document.cPanel.score.value = totalHits;
+    display("Playing");
+    launch();
+    showTime(gameLength);
+
+    console.log("play funct connect");
+}
