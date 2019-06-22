@@ -72,3 +72,8 @@ function play() {
 
     console.log("play funct connect");
 }
+
+
+function display(msg) {
+    document.cPanel.state.value = msg;
+}
