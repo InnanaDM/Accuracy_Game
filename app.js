@@ -41,4 +41,11 @@ function showTime(remTime) {
     }
 }
 
-
+function stopGame() {
+    stopTimer();
+    playing = false;
+    document.cPanel.timeLeft.value = 0;
+    clrHoles();
+    display("Game Over");
+    alert("Game Over. \nYour score is: " + totalHits);
+}
